@@ -12,7 +12,7 @@ provider "aws" {
 module "my_security_group" {
   source = "./modules/security-group"
 
-  vpc_id = "vpc-00864c29ad5ca742e" # Ensure this is the correct VPC ID
+  vpc_id = "vpc-xxxxxxxxxxxxxxx" # Ensure this is the correct VPC ID
   name   = "my-unique-security-group" # Updated to a unique name
 
   sg_rules = [
